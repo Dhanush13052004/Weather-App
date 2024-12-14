@@ -1,0 +1,94 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #e3f2fd;
+  color: #333;
+}
+
+/* App Container */
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Title */
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #1976d2;
+}
+
+/* Input Container */
+.input-container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.city-input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #1976d2;
+  border-radius: 4px;
+  width: 70%;
+}
+
+.fetch-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.fetch-button:hover {
+  background-color: #005bb5;
+}
+
+/* Loading and Error Messages */
+.loading {
+  color: #1976d2;
+  font-size: 1.2rem;
+}
+
+.error {
+  color: red;
+  font-size: 1rem;
+}
+
+/* Weather Info */
+.weather-info {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: white;
+}
+
+.weather-info h2 {
+  margin: 10px 0;
+  color: #1976d2;
+}
+
+.weather-info p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .city-input {
+    width: 100%;
+  }
+
+  .fetch-button {
+    width: 100%;
+  }
+}
