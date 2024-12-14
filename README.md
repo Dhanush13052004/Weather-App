@@ -1,3 +1,40 @@
+# Weather App
+
+A simple weather application built using React.js that allows users to get current weather information for any city. The app fetches weather data from the OpenWeatherMap API and displays temperature, weather description, humidity, and wind speed. The application also includes basic error handling, loading states, and caching mechanisms to improve performance.
+
+## Features
+
+- **City Input**: Users can type in the name of any city to get weather details.
+- **Weather Information**:
+  - Temperature in Celsius
+  - Weather Description (e.g., clear sky, rainy, etc.)
+  - Humidity percentage
+  - Wind Speed
+- **Error Handling**: Displays an appropriate error message if the city name is invalid or if there's an issue fetching data.
+- **Loading Indicator**: A loading message is shown while the data is being fetched.
+- **Caching**: To improve performance and reduce unnecessary API calls, the app implements a caching mechanism that stores previously fetched weather data for a short period.
+
+## Technologies Used
+
+- **React.js**: For building the user interface (UI) and managing the state.
+- **CSS**: For styling the app, making it visually appealing and responsive.
+- **OpenWeatherMap API**: Provides weather data based on the city name entered by the user.
+- **Local Storage**: Used for caching weather data to reduce redundant API calls.
+
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+You will need `Node.js` and `npm` installed. If you don't have them installed, you can download and install them from the [official website](https://nodejs.org/).
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/weather-app.git
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
