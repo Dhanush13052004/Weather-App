@@ -3,14 +3,7 @@ This Weather App is a simple, user-friendly application that allows users to che
 
 ## Key Features:
 
-City Input: Users can type in the name of any city to get weather details.
-Weather Information: The app displays:
-Temperature in Celsius
-Weather Description (e.g., clear sky, rainy, etc.)
-Humidity percentage
-Wind Speed
-Error Handling: If the user inputs an invalid city name or there's an issue fetching data, the app displays an appropriate error message.
-Loading Indicator: The app shows a loading message while the data is being fetched from the API.
+This Weather App allows users to input the name of any city to retrieve detailed weather information, including the temperature in Celsius, weather description (e.g., clear sky, rainy), humidity percentage, and wind speed. If the user enters an invalid city name or there is an issue with fetching the data, the app displays an appropriate error message. While the weather data is being fetched from the OpenWeatherMap API, a loading indicator is shown to keep the user informed. To improve performance and reduce unnecessary API calls, the app implements caching using localStorage. If the weather data for a city has been previously fetched and is still valid (not older than 10 minutes), it is retrieved from the cache, providing a quicker response time and reducing the need for repeated API requests.
 
 ## Technologies Used
 
