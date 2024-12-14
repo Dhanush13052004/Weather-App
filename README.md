@@ -12,7 +12,7 @@ Wind Speed
 Error Handling: If the user inputs an invalid city name or there's an issue fetching data, the app displays an appropriate error message.
 Loading Indicator: The app shows a loading message while the data is being fetched from the API.
 
-# Technologies Used
+## Technologies Used
 
 - **React.js**: For building the user interface (UI) and managing the state.  
 - **CSS**: For styling the app, making it visually appealing and responsive.  
