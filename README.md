@@ -10,3 +10,4 @@ This Weather App allows users to input the name of any city to retrieve detailed
 - **React.js**: For building the user interface (UI) and managing the state.  
 - **CSS**: For styling the app, making it visually appealing and responsive.  
 - **OpenWeatherMap API**: Provides the weather data based on the city name entered by the user.
+![image](https://github.com/user-attachments/assets/f71d2e24-21a6-4907-9418-b0a19a92e586)
